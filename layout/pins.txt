@@ -1,0 +1,27 @@
+row 1 exp1 a2
+row 2 exp1 b4
+row 3 exp1 a5
+row 4 exp1 a1
+row 5 exp1 a4
+
+row 6 exp0 a5
+row 7 exp0 a7
+row 8 exp0 a3
+row 9 exp0 a4
+row 10 exp0 a1
+
+col 1 exp1 a0
+col 2 exp1 a3
+col 3 exp1 b1
+col 4 exp1 b3
+col 5 exp1 b2
+col 6 exp1 a6
+
+col 7 exp0 a0
+col 8 exp0 b3
+col 9 exp0 b2
+col 10 exp0 b6
+col 11 exp0 a2
+col 12 exp0 a6
+
+kill 23

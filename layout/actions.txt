@@ -1,0 +1,141 @@
+macro-noclear atb al tb
+
+macro un ct z
+macro ps ct v
+macro cu ct x
+macro cp ct c
+macro rd ct y
+
+macro => sp = > sp
+macro <- sp < - sp
+macro _=_ sp = sp
+macro == sp = = sp
+string -> ->
+string /* /*
+string */ */
+string // //
+
+shift _= _=_ =
+## word operations
+macro sw ct ← sh →
+macro cw sw cp
+macro rw sw ps
+
+## Tabbing
+macro tbp ct ↑↑
+macro tbn ct ↓↓
+
+## Intellij navigation
+macro tr al →
+macro tl al ←
+macro nx ct al →
+macro pv ct al ←
+macro pj al 1
+macro nwf al in
+
+## Intellij run
+macro ru ct sh f10
+
+holdAndRelease k_ >3 k 1
+holdAndRelease m_ >3 m 1
+
+## Ctrl keys
+holdAndRelease n_ ct n 1
+holdAndRelease o_ ct o 1
+
+## Shift keys
+holdAndRelease t_ sh t 1
+holdAndRelease e_ sh e 1
+
+## OS keys
+holdAndRelease a_ al a 1
+holdAndRelease s_ al s 1
+
+holdAndRelease (_ os ( 1
+holdAndRelease )_ os ) 1
+
+macro s← sh ←
+macro s→ sh →
+macro s←← sh ←←
+macro s→→ sh →→
+macro c← ct ←
+macro c→ ct →
+macro sc← sh ct ←
+macro sc→ sh  ct →
+macro s↑ sh ↑
+macro s↓ sh ↓
+macro sc↑ sh ct ↑
+macro sc↓ sh ct ↓
+
+toggle nvt >2
+
+## Symbol keys
+holdAndRelease h_ >1 h 1
+holdAndRelease i_ >1 i 1
+
+## Thumb keys
+holdAndRelease lt >2 en 0
+holdAndRelease rt >2 sp 0
+
+## Keyword keys
+holdAndRelease j_ >5 j 1
+holdAndRelease w_ >5 w 1
+
+## Scalaz keys
+holdAndRelease v_ >6 v 1
+holdAndRelease z_ >6 z 1
+
+## osn toggle
+macro ^1 os 1
+macro ^2 os 2
+macro ^3 os 3
+macro ^4 os 4
+macro ^5 os 5
+macro ^6 os 6
+macro ^7 os 7
+macro ^8 os 8
+macro ^9 os 9
+macro ^0 os 0
+macro xx al f4
+
+string abt abstract
+string ath andthen
+string cse case
+string cls class
+string def def
+string ext extends
+string mtc match
+string obj object
+string prv private
+string str String
+string val val
+string wth with
+string yld yieldo
+
+string ∘ ∘
+string ⇒ ⇒
+string ☆ ☆
+
+delay dly 100
+
+macro cwc cw dly →
+
+toggle tg2 >2
+holdAndRelease nav >2 tg2 0
+
+## macros for sh-ct-v pasting in intellij (and others)
+toggle tg4 >4
+macro e>0 es tg4
+macro pcl sh ct v
+macro pw pcl tg4
+
+macro p1 1 tg4
+macro p2 2 tg4
+macro p3 3 tg4
+macro p4 4 tg4
+macro p5 5 tg4
+macro p6 6 tg4
+macro p7 7 tg4
+macro p8 8 tg4
+macro p9 9 tg4
+
