@@ -36,9 +36,6 @@ macro nwf al in
 ## Intellij run
 macro ru ct sh f10
 
-holdAndRelease k_ >3 k 1
-holdAndRelease m_ >3 m 1
-
 ## Ctrl keys
 holdAndRelease n_ ct n 1
 holdAndRelease o_ ct o 1
@@ -51,8 +48,13 @@ holdAndRelease e_ sh e 1
 holdAndRelease a_ al a 1
 holdAndRelease s_ al s 1
 
-holdAndRelease (_ os ( 1
-holdAndRelease )_ os ) 1
+shift () ( )
+holdAndRelease ()_ os () 1
+holdAndRelease →_ os → 1
+
+holdAndRelease m_ >7 m 1
+
+shift [] [ ]
 
 macro s← sh ←
 macro s→ sh →
@@ -138,4 +140,3 @@ macro p6 6 tg4
 macro p7 7 tg4
 macro p8 8 tg4
 macro p9 9 tg4
-
