@@ -1,22 +1,22 @@
 ## Normal (layer 0)
-\   '   -   .   [   ]           }   {   =   /   "   ;
-[]  es  q   u   p   y           f   g   c   r   l   ,
+es  '   -   .   :   ]           }   {   =   /   "   ;
+[]  es  q   u   p   y           f   g   c   r   l   dl
 ()_ a_  o_  e_  i_  ,           d   h_  t_  n_  s_  →_
-↓↓  tb  z_  j_  k   x           b   m_  w_  v_  bs  ↑↑
+↓↓_ tb  z_  j   k   x           b   m_  w   v_  db  ↑↑_
                     lt          rt
 
 ## Symbols (layer 1)
 f1  f2  f3  f4  f5  f6          f7  f8  f9  f10 f11 f12
 /*  _   +   &   |   @           !   7   8   9   ^   */
-abt <   :   _=  [   >           *   4   5   6   ,   =>
-<-  ;   *   %   $   #           ?   1   2   3   ~   al
+<-  <   :t  _=  {   >           *   4   5   6   ,   =>
+->  ;   *   %   $   #           ?   1   2   3   ds  al
                     lt          0
 
 ## Arrows (layer 2)
 ..  ..  ..  ..  ..  ..          ←←  s←  s↓  s→  →→  ..
-..  ..  ..  ..  ..  ..          s←← sc← s↑  sc→ s→→ ..
+..  ..  ..  ..  cw  ..          s←← sc← s↑  sc→ s→→ dl
 cu  s←← sc← s↑  sc→ s→→         ←←  c←  ↑   c→  →→  ps
-..  ←←  s←  s↓  s→  →→          dl  ←   ↓   →   bs  ..
+..  cp  s←  s↓  s→  ..          dl  ←   ↓   →   bs  ..
                     lt          rt
 
 ## Navigation (layer 3)
@@ -35,9 +35,9 @@ cu  s←← sc← s↑  sc→ s→→         ←←  c←  ↑   c→  →→  
 
 ## Scala keywords (layer 5)
 ..  ..  ..  ..  ..  ..          ..  ..  ..  ..  ..  ..
-..  ..  ..  ..  prv yld         ..  cls cse ..  ..  ..
-..  ath obj ext ..  ..          def ..  ..  ..  str ..
-..  ..  ..  ..  ..  ..          ..  mtc wth val ..  ..
+..  ..  ..  ..  prv yld         for cls cse ..  lis ..
+..  ath opt ext int ..          def ..  ..  ..  str ..
+..  ..  ..  ..  ..  ..          obj mtc wth val ..  ..
                     ..          ..
 
 ## Scalaz operators (layer 6)

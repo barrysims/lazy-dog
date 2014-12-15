@@ -1,15 +1,17 @@
 macro-noclear atb al tb
 
+macro uni ct sh u
+
 macro un ct z
 macro ps ct v
 macro cu ct x
 macro cp ct c
 macro rd ct y
-
-macro => sp = > sp
-macro <- sp < - sp
-macro _=_ sp = sp
-macro == sp = = sp
+ 
+string => " => "
+string <- " <- "
+string _=_ " = "
+string == " == "
 string -> ->
 string /* /*
 string */ */
@@ -18,7 +20,7 @@ string // //
 shift _= _=_ =
 ## word operations
 macro sw ct ← sh →
-macro cw sw cp
+macro cw sw cp es
 macro rw sw ps
 
 ## Tabbing
@@ -44,15 +46,33 @@ holdAndRelease o_ ct o 1
 holdAndRelease t_ sh t 1
 holdAndRelease e_ sh e 1
 
-## OS keys
+## Alt keys
 holdAndRelease a_ al a 1
 holdAndRelease s_ al s 1
 
+## keyword keys
 shift () ( )
-holdAndRelease ()_ os () 1
-holdAndRelease →_ os → 1
+holdAndRelease ()_ >5 () 1
+holdAndRelease →_ >5 → 1
 
 holdAndRelease m_ >7 m 1
+
+## Symbol keys
+holdAndRelease h_ >1 h 1
+holdAndRelease i_ >1 i 1
+holdAndRelease sp_ >1 sp 1
+
+## Thumb keys
+holdAndRelease lt >2 en 0
+holdAndRelease rt >2 sp 0
+
+## OS keys
+holdAndRelease ↑↑_ os ↑↑ 1
+holdAndRelease ↓↓_ os ↓↓ 1
+
+## Scalaz keys
+holdAndRelease v_ >6 v 1
+holdAndRelease z_ >6 z 1
 
 shift [] [ ]
 
@@ -71,22 +91,6 @@ macro sc↓ sh ct ↓
 
 toggle nvt >2
 
-## Symbol keys
-holdAndRelease h_ >1 h 1
-holdAndRelease i_ >1 i 1
-
-## Thumb keys
-holdAndRelease lt >2 en 0
-holdAndRelease rt >2 sp 0
-
-## Keyword keys
-holdAndRelease j_ >5 j 1
-holdAndRelease w_ >5 w 1
-
-## Scalaz keys
-holdAndRelease v_ >6 v 1
-holdAndRelease z_ >6 z 1
-
 ## osn toggle
 macro ^1 os 1
 macro ^2 os 2
@@ -100,23 +104,33 @@ macro ^9 os 9
 macro ^0 os 0
 macro xx al f4
 
-string abt abstract
-string ath andthen
-string cse case
-string cls class
-string def def
-string ext extends
-string mtc match
-string obj object
-string prv private
-string str String
-string val val
-string wth with
-string yld yieldo
+string abt "abstract "
+string ath " andthen "
+string cse "case "
+string cls "class "
+string def "def "
+string ext "extends "
+string for "for {"
+string int "Int"
+string lis "List["
+string mtc " match "
+string opt "Option["
+string obj "object "
+string prv "private "
+string pro "protected "
+string str "String"
+string val "val "
+string wth "with "
+string yld " yield "
+string :t ": "
 
-string ∘ ∘
-string ⇒ ⇒
-string ☆ ☆
+## Drop Space
+macro ds ← bs →
+
+shift db bs dl
+
+macro ∘ uni 2 2 1 8 en
+macro ⇒ uni 2 1 d 2 en
 
 delay dly 100
 
