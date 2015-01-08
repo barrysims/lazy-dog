@@ -7,7 +7,7 @@ macro ps ct v
 macro cu ct x
 macro cp ct c
 macro rd ct y
- 
+
 string => " => "
 string <- " <- "
 string _=_ " = "
@@ -104,6 +104,7 @@ macro ^9 os 9
 macro ^0 os 0
 macro xx al f4
 
+## Scala keywords
 string abt "abstract "
 string ath " andthen "
 string cse "case "
@@ -124,6 +125,19 @@ string wth "with "
 string yld " yield "
 string :t ": "
 
+## Html
+string div "<div "
+string img "<img src="
+string idh id=
+string cla class=
+string htm <html
+string bod <body
+string title <title
+string scr "<script type=\""
+string src src=
+
+## JS/Angular
+
 ## Drop Space
 macro ds ← bs →
 
@@ -133,7 +147,10 @@ macro ∘ uni 2 2 1 8 en
 macro ⇒ uni 2 1 d 2 en
 
 ## layer switcher from modified Dvorak to QWERTY
-swap d_q 1 7
+swap d_q 0 8
+
+## layer switcher for coding keyword macros
+swap kwm 5 3
 
 delay dly 100
 
@@ -157,3 +174,14 @@ macro p6 6 tg4
 macro p7 7 tg4
 macro p8 8 tg4
 macro p9 9 tg4
+
+## application shortcuts
+macro ap1 os 1
+macro ap2 os 2
+macro ap3 os 3
+macro ap4 os 4
+macro ap5 os 5
+macro ap6 os 6
+macro ap7 os 7
+macro ap8 os 8
+macro ap9 os 9
