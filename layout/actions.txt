@@ -132,6 +132,9 @@ shift db bs dl
 macro ∘ uni 2 2 1 8 en
 macro ⇒ uni 2 1 d 2 en
 
+## layer switcher from modified Dvorak to QWERTY
+swap d_q 1 7
+
 delay dly 100
 
 macro cwc cw dly →
