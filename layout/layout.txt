@@ -1,5 +1,5 @@
 ## Dvorak modified (layer 0)
-es  '   -   .   >   ]           }   {   =   /   "   ;
+es  '   -   .   <>  ..          }   {}  =   /\  "   ;
 []  es  q   u   p   y           f   g   c   r   l   dl
 ()_ a_  o_  e_  i_  ,           d   h_  t_  n_  s_  →_
 ↓↓_ tb  z_  j   k   x           b   m_  w   v_  db  ↑↑_

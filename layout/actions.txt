@@ -18,6 +18,11 @@ string */ */
 string // //
 
 shift _= _=_ =
+shift /\ / \
+shift {} { }
+shift () ( )
+shift <> < >
+
 ## word operations
 macro sw ct ← sh →
 macro cw sw cp es
@@ -51,7 +56,6 @@ holdAndRelease a_ al a 1
 holdAndRelease s_ al s 1
 
 ## keyword keys
-shift () ( )
 holdAndRelease ()_ >5 () 1
 holdAndRelease →_ >5 → 1
 
