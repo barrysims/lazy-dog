@@ -78,6 +78,9 @@ holdAndRelease ↓↓_ os ↓↓ 1
 holdAndRelease v_ >6 v 1
 holdAndRelease z_ >6 z 1
 
+## Toggle navigation layer
+toggle >2< >2
+
 shift [] [ ]
 
 macro s← sh ←

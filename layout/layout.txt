@@ -16,7 +16,7 @@ f1  f2  f3  f4  f5  f6          f7  f8  f9  f10 f11 f12
 c_s d_q kwm ..  ..  ..          ←←  s←  s↓  s→  →→  ..
 ..  ..  ..  ..  cw  ..          s←← sc← s↑  sc→ s→→ dl
 cu  s←← sc← s↑  sc→ s→→         ←←  c←  ↑   c→  →→  ps
-..  cp  s←  s↓  s→  ..          dl  ←   ↓   →   bs  ..
+..  cp  s←  s↓  s→  ..          >2<  ←   ↓   →   bs  ..
                     lt          rt
 
 ## Html (layer 3)
