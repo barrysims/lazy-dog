@@ -23,6 +23,9 @@ shift {} { }
 shift () ( )
 shift <> < >
 
+string ti ~
+macro bt sh ~
+
 ## word operations
 macro sw ct ← sh →
 macro cw sw cp es
